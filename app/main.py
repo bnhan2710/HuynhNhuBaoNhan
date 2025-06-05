@@ -15,3 +15,7 @@ app.include_router(router, prefix="/api/v1")
 @app.get("/", tags=["Root"])
 async def read_root():
     return {"message": "Welcome to the Message System API"}
+
+@app.get("/health", tags=["Health Check"])
+async def health_check():
+    return {"status": "ok"}

@@ -80,7 +80,7 @@ All scripts for development and testing must be included in a `Justfile`. The fo
 - `[x]` `just install`
 - `[x]` `just dev`
 - `[x]` `just migrate`
-- `[ ]` `just test`
+- `[x]` `just test`
 - `[x]` `just down` (optional)
 - `[x]` `just up` (optional)
 - `[ ]` `just mcp` (optional)
@@ -106,14 +106,14 @@ You must include test cases that cover:
 ### D4. Package API with Docker (Optional)
 You must include the following in your project:
 
-- `[ ]` Dockerfile
+- `[x]` Dockerfile
 	```
 	- Containerizes the FastAPI application.
 	- Must expose port 8000.
 	- Uses a production-ready base image (e.g. python:3.11-slim).
 	- Installs dependencies from requirements.txt.
 	```
-- `[ ]` docker-compose.yml
+- `[x]` docker-compose.yml
 	```
 	- Starts at least:
 		- Your FastAPI app container
@@ -123,7 +123,7 @@ You must include the following in your project:
 		- Expose port 5432
 	- Be accessible to the app via internal hostname (e.g., db)
 	```
-- `[ ]` .env.example
+- `[x]` .env.example
 	```
 	- Provide an example .env file containing:
 		- DATABASE_URL
