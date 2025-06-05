@@ -37,7 +37,6 @@ pip-delete-this-directory.txt
 
 # Env files
 .env
-.env.*
 
 # Docker
 *.log
