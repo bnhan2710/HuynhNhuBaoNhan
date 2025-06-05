@@ -10,3 +10,7 @@ httpx
 pytest-asyncio
 black
 isort
+sqlalchemy[asyncio] 
+asyncpg
+psycopg2-binary
+email-validator

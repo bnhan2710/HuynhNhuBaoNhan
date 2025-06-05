@@ -7,9 +7,9 @@ services:
     container_name: postgres-01
     restart: always
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_USER: bnhan2710  
+      POSTGRES_PASSWORD: mynameisnhan 
+      POSTGRES_DB: message-system
     ports:
       - "5432:5432"
     volumes:

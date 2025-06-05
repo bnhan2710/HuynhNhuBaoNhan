@@ -1,8 +1,14 @@
 # Entry point for FastAPI app
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
-app = FastAPI()
+from .routes import router
 
-@app.get("/")
-def read_root():
-    return {"message": "Hello, world!"}
+app = FastAPI(
+    title="Message System API",
+    description="A messaging system API with user management and message functionality",
+    version="1.0.0"
+)
+
+app.include_router(router, prefix="/api/v1")
+

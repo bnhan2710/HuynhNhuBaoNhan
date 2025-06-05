@@ -61,30 +61,30 @@ The following tables must be implemented:
 The system must support the following API functionality:
 
 #### User APIs
-- `[ ]` Create a user
-- `[ ]` Retrieve user info
-- `[ ]` List users
+- `[x]` Create a user
+- `[x]` Retrieve user info
+- `[x]` List users
 
 #### Message APIs
-- `[ ]` Send a message to one or more recipients
-- `[ ]` View sent messages
-- `[ ]` View inbox messages
-- `[ ]` View unread messages
-- `[ ]` View a message with all recipients
-- `[ ]` Mark a message as read
+- `[x]` Send a message to one or more recipients
+- `[x]` View sent messages
+- `[x]` View inbox messages
+- `[x]` View unread messages
+- `[x]` View a message with all recipients
+- `[x]` Mark a message as read
 
 ### D2. Command Line (Justfile)
 
 All scripts for development and testing must be included in a `Justfile`. The following commands are required:
 
-- `[ ]` `just install`
-- `[ ]` `just dev`
-- `[ ]` `just migrate`
+- `[x]` `just install`
+- `[x]` `just dev`
+- `[x]` `just migrate`
 - `[ ]` `just test`
-- `[ ]` `just down` (optional)
-- `[ ]` `just up` (optional)
+- `[x]` `just down` (optional)
+- `[x]` `just up` (optional)
 - `[ ]` `just mcp` (optional)
-- `[ ]` `just format` (optional)
+- `[x]` `just format` (optional)
 
 ### D3. CI/CD With Github Action
 Your repository will be automatically tested using GitHub Actions. To pass this phase, please ensure the following:
