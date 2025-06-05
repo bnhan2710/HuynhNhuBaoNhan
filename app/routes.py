@@ -123,7 +123,7 @@ async def send_message(
     await db.refresh(message)
     
     recipient_info = []
-    for i, recipient in recipients:
+    for i, recipient in enumerate(recipients):
         recipient_info.append({
             "id": message_recipients[i].id,
             "recipient_id": recipient.id,

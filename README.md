@@ -93,15 +93,15 @@ Include automated tests in the `/tests` folder using pytest.
 
 Your pipeline must include:
 
-- `[ ]` Sets up Python 3.11
-- `[ ]` Installs dependencies using just install
-- `[ ]` Runs tests using just test
+- `[x]` Sets up Python 3.11
+- `[x]` Installs dependencies using just install
+- `[x]` Runs tests using just test
 
 You must include test cases that cover:
 
-- `[ ]` User Management: Create user, get user by ID, list users
-- `[ ]` Messaging : Send message, get inbox, get sent
-- `[ ]` Read Status : Mark message as read, get unread messages
+- `[x]` User Management: Create user, get user by ID, list users
+- `[x]` Messaging : Send message, get inbox, get sent
+- `[x]` Read Status : Mark message as read, get unread messages
 
 ### D4. Package API with Docker (Optional)
 You must include the following in your project:
